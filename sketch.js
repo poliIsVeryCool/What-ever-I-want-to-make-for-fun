@@ -45,7 +45,7 @@ function drawSlotMachine(x, y, w, h) {
 
 function slots(x, y, w) {
   fill("red");
-  textSize(40);
+  textSize(80);
   text(slot1[slot1Outcome], x - w / 3, y);
   text(slot2[slot2Outcome], x, y);
   text(slot3[slot3Outcome], x + w / 3, y);
