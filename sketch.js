@@ -30,7 +30,7 @@ function setup() {
 
 function draw() {
   background(0);
-  drawSlotMachine(200, 300, 100, 150);
+  drawSlotMachine(200, 300, 200, 300);
   winLose();
 }
 
